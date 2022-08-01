@@ -1,0 +1,624 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}  
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+} 
+
+nav{
+    width: 100%;
+    padding: 5vh 7.5% 2vh 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: blueviolet;
+    padding: 5px;
+    border: 2px solid rgb(129, 129, 129);
+}
+
+nav a:active{
+    padding: 5px;
+    color: rgb(29, 24, 32);
+}
+
+.menubar{
+    display: none;
+}
+
+.desktopmenubar{
+    display: inline-block;
+}
+
+/* HUMAN START */
+
+.human{
+    position: relative;
+    top: 0px;
+    padding-bottom: 200px;
+}
+
+.human>img{
+    position: absolute;
+    top: 150px;
+    right: 7%;
+    width: 35%;
+    height: 70vh;
+}
+.humantext{
+    background-color: rgba(28, 9, 39, 0.911);
+    height: 45vh;
+    width: 100%;
+    padding: 20vh 43% 35vh 10%;
+    margin: auto;
+}
+
+.human h2{
+    width: 15%; 
+    border-top: 1px solid white;
+}
+
+.human h1{
+    margin-top: 20px;
+    border-width: 10%;
+    color: white;
+}
+
+.human span{
+    width: 50%;
+    color: rgb(211, 212, 212);
+}
+
+.human a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    width: max-content;
+    padding: 5px;
+}
+
+.patternsformobile{
+    display: none;
+}
+
+
+
+.patterns{
+    position:absolute;
+    top:0px;
+    display: flex;
+    flex-direction: column;
+    column-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.patterns img:last-child{
+    height: 60vh;
+    width: 150px;
+    margin-left: -90%;
+    margin-top: -40px;
+}
+
+.patterns img:first-child{
+    height: 60vh;
+    width: 300px;
+    margin-right: -80%;
+}
+/* HUMAN ENDS */
+
+/* homesection starts */
+.homesection{
+   width: 100%;
+   padding: 20vh 10% 20vh 10%;
+   margin: auto;
+   /* border: 2px rgb(190, 23, 23) solid; */
+
+}
+
+.ourdifference h2{
+    width: 15%;
+    padding-bottom: 20px; 
+    border-top: 2px solid rgb(204, 203, 203);
+}
+.whatmakeusdifferent span{
+    display: block;
+    /* border: 2px rgb(190, 23, 23) solid; */
+
+}
+
+.whatmakeusdifferent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    margin-top: 40px;
+    justify-content: space-between;
+    /* border: 2px rgb(190, 23, 23) solid; */
+}
+
+.whatmakeusdifferent div{
+    width: 30%;
+    border: 1px solid white ;
+}
+
+.whatmakeusdifferent img{
+    width: 40px;
+    height: 40px;
+}
+
+.makefindings{
+    position: relative;
+    margin-top: 100px;
+    padding: 40px;
+    color: white ;
+    background-color: rgba(28, 9, 39, 0.911);
+}
+
+.makefindings h1{
+    display: inline-block;
+}
+
+.makefindingstext a{
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    width: max-content;
+    padding: 5px;
+}
+
+#makefindingsdekstoppics{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 152px;
+    width: 35%;
+}
+
+#makefindingsmobilepics{
+    display: none;
+}
+
+/* homesection ends */
+
+/* footer starts */
+footer{
+    position: relative;
+    width: 100%;
+    padding: 5vh 10% 5vh 10%;
+    background-color: rgb(248, 248, 248);
+
+}
+
+#footerimage{
+    display: none;
+}
+
+#footerdekstopimage{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40%;
+    height: 200px;
+}
+
+#footersub{
+    padding-bottom: 20px;
+}
+footer div:first-child{
+    padding-bottom: 10px;
+}
+
+#footerlogo{
+    display: inline-block;
+}
+
+.sociallinks{
+    display: inline;
+    margin-left: 78.5%;
+}
+
+.footerchilds{
+    border-top: 1px solid rgb(146, 145, 145);
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+
+}
+
+.footerchilds span{
+    margin-bottom: 15px;
+    color: rgb(157, 158, 158);
+    display: block;
+}
+
+.footerchilds a{
+    color:rgb(15, 15, 15);
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+/* footer ends  */
+
+@media (min-width: 320px) and (max-width: 768px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }  
+    
+    body{
+        /* position: relative; */
+        width: 100%;
+        overflow-x: hidden;
+    } 
+
+    /* nav and menubar start */
+    
+    nav{
+        display:none;
+    }
+
+    #btn{
+        display: none;
+    }
+
+    .menubar{
+        display: block;
+    }
+
+    .menubarhead{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    #hamburger img:first-child{
+        display: none;
+    
+    }
+    
+    .hide{
+        display: none;
+    }
+    
+    #square{
+        position: absolute;
+        top: 75px;
+        z-index: 2;
+        width: 100%;
+        padding-top: 10px;
+        /* display: block;  */
+      background-color: rgb(28, 6, 49);  
+    }
+
+    #square>div{
+        margin-top: 10px;
+    }
+    
+    #square a{
+        display: block;
+        padding: 20px;
+        width: 70%;
+        color: white;
+        text-align: center;
+        text-decoration: none; 
+        margin: auto;
+        /* border-top: 1px solid ; */
+    
+    }
+    
+    #square a:hover{
+        color: rgb(207, 206, 131);
+        border: 1px solid rgb(250, 251, 252);
+    }
+
+    #square img{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+
+    .desktopmenubar{
+        display: none;
+    }
+    /* nav and menubar ends */
+
+
+    /* HUMAN START */
+
+.human{
+    position: relative;
+    top: 0px;
+    padding-bottom: 90px;
+}
+
+.human>img{
+    position: relative;
+    top: 0px; 
+    display: block;
+    /* right: 7%; */
+    width: auto;
+    height: auto;
+}
+
+.human h2{
+   display: none;
+}
+
+.human h1{
+    width: 100%;
+    font-size: 200;
+    margin-top: 20px;
+    border-width: 10%;
+    color: white;
+}
+
+.humantext h1 span a{
+    margin: auto;
+}
+
+.human span{
+    width: 50%;
+    color: rgb(211, 212, 212);
+}
+
+.human a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    width: max-content;
+    padding: 5px;
+    margin: auto;
+}
+
+.humantext{
+    /* border: 2px solid red; */
+    position: relative;
+    background-color: rgba(28, 9, 39, 0.911);
+    height: 75vh;
+    width: 100%;
+    padding: 20vh 10% 5vh 10%;
+    margin: auto;
+}
+
+.humantextcontent{
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+}
+
+.patterns{
+    display: none;
+}
+
+.patternsformobile{
+    position:absolute;
+    top:0px;
+    display: flex;
+    flex-direction: column;
+    column-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.patternsformobile img:last-child{
+    height: 50vh;
+    width: 40%;
+    margin-right: -40%;
+}
+
+.patternsformobile img:first-child{
+    height: 40vh;
+    width: 30%;
+    margin-left: -90%;
+}
+/* HUMAN ENDS */
+
+/* homesection starts */
+.homesection{
+    width: 100%;
+    padding: 0vh 10% 20vh 10%;
+    margin: auto;
+    /* border: 2px rgb(190, 23, 23) solid; */
+ 
+ }
+
+ .ourdifference h1{
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid red; */
+ }
+ 
+ .ourdifference h2{
+     width: 50%;
+     margin: auto;
+     padding-bottom: 20px; 
+     border-top: 2px solid rgb(186, 48, 204);
+ }
+ .whatmakeusdifferent span{
+     display: block;
+     /* border: 2px rgb(190, 23, 23) solid; */
+ 
+ }
+ 
+ .whatmakeusdifferent{
+     width: 100%;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     flex-direction: column;
+     column-gap: 10px;
+     margin-top: 40px;
+     justify-content: space-between;
+     /* border: 2px rgb(190, 23, 23) solid; */
+ }
+ 
+ .whatmakeusdifferent div{
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border: 1px solid white ;
+ }
+ 
+ .whatmakeusdifferent img{
+     width: 90px;
+     height: 90px;
+     display: block;
+ }
+ 
+ .makefindings{
+     position: relative;
+     margin-top: 100px;
+     padding: 20vh 10%;
+     color: white ;
+     background-color: rgba(28, 9, 39, 0.911);
+ }
+ 
+ .makefindings h1{
+     display: block;
+ }
+
+ .makefindingstext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+ }
+ 
+ .makefindingstext a{
+     position:inherit;
+     display: block;
+     margin-top: 20px;
+     display: block;
+     color: white;
+     text-decoration: none;
+     border: 1px white solid;
+     width: 60%;
+     padding: 10px;
+ }
+ 
+ .makefindingstext{
+     
+ }
+
+ #makefindingsdekstoppics{
+    display: none;
+ }
+ 
+ #makefindingsmobilepics{  
+    display: block;
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     height: 333px;
+     width: 45%;
+ }
+ 
+ /* homesection ends */
+
+ /* footer starts */
+footer{
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5vh 5%;
+    background-color: rgb(243, 243, 243);
+
+}
+
+#footerimage{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 150px;
+}
+
+#footerdekstopimage{
+    display: none;
+}
+
+footer div:first-child{
+
+    padding-bottom: 10px;
+}
+
+footer h2{
+    margin-top: 50px;
+    display: block;
+}
+
+.sociallinks{
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+}
+
+.footerchilds{
+    width: 100%;
+    /* z-index: 2; */
+    margin-top: 30px;
+    border-top: 1px solid rgb(146, 145, 145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    justify-content: space-between;
+
+}
+
+.footerchilds span{
+    margin-bottom: 15px;
+    color: rgb(157, 158, 158);
+    display: block;
+}
+
+.footerchilds a{
+    color:rgb(15, 15, 15);
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footerchild{
+    width: 100%;
+}
+
+/* footer ends  */
+    
+}
